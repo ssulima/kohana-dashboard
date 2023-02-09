@@ -1,20 +1,36 @@
 {
-    "name": "woduda/kohana-dashboard",
+    "name": "ssulima/kohana-dashboard",
     "type": "kohana-module",
     "description": "Kohana 3.3 module for creation of simple dashboards/panels",
     "keywords": ["kohana", "koseven", "dashboard", "module", "library"],
-    "homepage": "http://github.com/woduda/kohana-dashboard",
+    "homepage": "https://github.com/ssulima/kohana-dashboard",
     "license": "MIT",
     "authors": [
         {
             "name": "Wojciech Duda",
             "email": "wo.duda@gmail.com"
+        },
+        {
+            "name": "Sebastian Sulima",
+            "email": "git@sebastiansulima.pl",
+            "role": "developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ssulima/shadowhand-email.git"
         }
     ],
     "require": {
         "composer/installers": "~1.0",
-        "illusorium/kohana-email": "^2.0",
         "koseven/koseven": "^3.3",
+        "ssulima/shadowhand-email": "dev-master",
         "php": ">=5.3.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
