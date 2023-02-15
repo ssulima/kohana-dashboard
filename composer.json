@@ -25,7 +25,7 @@
     "require": {
         "composer/installers": "~1.0",
         "koseven/koseven": "^3.3",
-        "ssulima/shadowhand-email": "dev-master",
+        "ssulima/shadowhand-email": "v1.0.0",
         "php": ">=5.3.3"
     },
     "config": {
